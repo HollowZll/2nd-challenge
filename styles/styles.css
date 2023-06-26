@@ -5,11 +5,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(30, 38%, 92%);
 }
 
 .mobile {
@@ -97,4 +100,48 @@ main {
 
 .shopping__icon {
   margin-right: 8px;
+}
+
+@media (min-width: 1440px) {
+  .mobile {
+    display: none;
+  }
+  .perfumeCard {
+    height: 430px;
+    width: 310px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .photoCard {
+    height: 430px;
+    width: 310px;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  main {
+    height: 667px;
+  }
+  .card__uptittle {
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  .card__tittle {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 60px;
+  }
+  .card__paragraph {
+    margin-left: 32px;
+    margin-right: 40px;
+  }
+  .card__prices {
+    margin-left: 32px;
+  }
+  .card__add {
+    margin-top: 30px;
+  }
+  .card__green__button {
+    width: 80%;
+  }
 }/*# sourceMappingURL=styles.css.map */
