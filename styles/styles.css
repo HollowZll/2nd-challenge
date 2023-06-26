@@ -91,6 +91,10 @@ main {
   font-weight: 700;
 }
 
+.card__green__button:hover {
+  background-color: hsl(158, 36%, 23%);
+}
+
 .shopping__icon {
   margin-right: 8px;
 }/*# sourceMappingURL=styles.css.map */
