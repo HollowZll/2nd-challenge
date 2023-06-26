@@ -22,12 +22,12 @@ main {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    height: 35%;
+    height: 40%;
 }
 
 .perfumeCard {
     width: 340px;
-    height: 730px;
+    height: 590px;
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -36,3 +36,10 @@ main {
 
 
 //mobile card styling
+
+
+.card__uptittle {
+    margin: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
