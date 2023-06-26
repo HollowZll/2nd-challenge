@@ -37,6 +37,10 @@ main {
     background-color: white;
 }
 
+.photoCard {
+    display: none;
+}
+
 
 //mobile card inner elements styling
 
@@ -142,7 +146,8 @@ main {
         width: 310px;
         border-radius: 15px;
         border-top-right-radius: 0px;
-       border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: block;
     }
 
     main {
@@ -158,7 +163,7 @@ main {
     }
 
     .card__tittle {
-        margin-top: 10px;
+        margin-top: 15px;
         margin-left: 30px;
         margin-right: 60px;
     }
@@ -170,12 +175,14 @@ main {
 
     .card__prices {
         margin-left: 32px;
+        margin-top: 25px;
     }
 
     //button
 
     .card__add {
         margin-top: 30px;
+        margin-right: 10px;
     }
 
     .card__green__button {

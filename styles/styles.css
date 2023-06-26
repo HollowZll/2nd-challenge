@@ -31,6 +31,10 @@ main {
   background-color: white;
 }
 
+.photoCard {
+  display: none;
+}
+
 .card__uptittle {
   margin: 20px;
   margin-top: 16px;
@@ -118,6 +122,7 @@ main {
     border-radius: 15px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    display: block;
   }
   main {
     height: 667px;
@@ -127,7 +132,7 @@ main {
     margin-left: 30px;
   }
   .card__tittle {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 30px;
     margin-right: 60px;
   }
@@ -137,9 +142,11 @@ main {
   }
   .card__prices {
     margin-left: 32px;
+    margin-top: 25px;
   }
   .card__add {
     margin-top: 30px;
+    margin-right: 10px;
   }
   .card__green__button {
     width: 80%;
