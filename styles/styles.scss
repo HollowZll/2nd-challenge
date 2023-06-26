@@ -20,14 +20,14 @@ main {
 
 .mobile {
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height: 40%;
 }
 
 .perfumeCard {
     width: 340px;
-    height: 590px;
+    height: 600px;
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -43,41 +43,71 @@ main {
     margin-top: 16px;
     margin-bottom: 10px;
     font-weight: 500;
-    color: gray;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
 }
 
 .card__tittle {
     margin: 20px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 31px;
+    line-height: 100%;
+
 }
 
 .card__paragraph {
-    margin: 20px;
+    margin: 23px;
     margin-bottom: 15px;
     margin-top: 0px;
-    margin-left: 25px;
-    font-weight: 500;
-    color: gray;
+    font-weight: 300;
+    color: hsl(228, 12%, 48%);
     font-size: 14px;
-    line-height: 140%;
+    line-height: 170%;
 }
 
 .card__prices {
     display: flex;
-    margin-left: 20px;
+    margin-left: 22px;
+    align-items: center;
 }
+
+.price__new {
+    margin-right: 10px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.price__original {
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+
+}
+
+
+
+//buy button 
+
 
 .card__add {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    align-items: center;
 }
 
 .card__green__button {
     width: 88%;
-    height: 45px;
-    background-color: green;
+    height: 48px;
+    background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     color: white;
+    font-weight: 700;
+}
+
+.shopping__icon {
+    margin-right: 8px;
 }
