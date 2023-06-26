@@ -40,6 +40,44 @@ main {
 
 .card__uptittle {
     margin: 20px;
+    margin-top: 16px;
     margin-bottom: 10px;
     font-weight: 500;
+    color: gray;
+}
+
+.card__tittle {
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.card__paragraph {
+    margin: 20px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 25px;
+    font-weight: 500;
+    color: gray;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.card__prices {
+    display: flex;
+    margin-left: 20px;
+}
+
+.card__add {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.card__green__button {
+    width: 88%;
+    height: 45px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
 }
